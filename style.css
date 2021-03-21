@@ -1,0 +1,133 @@
+
+/*Global styles -----------------------------------------------------------------------------------------------------------*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+
+body{
+    background: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#header_background{
+    width: 1200px;
+    left: 120px;
+    position: absolute;
+    z-index: -1;
+}
+#header_background img{
+    width: 1200px;
+    display: inline;
+}
+
+nav{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    /* margin-top: 20px; */
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    z-index: 0;
+  }
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+  
+nav li{
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: default;
+  }
+  
+nav li:hover{
+    /* background: rgb(194, 140, 39); */
+    color: rgb(194, 140, 39);
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.header{
+    position: relative;
+}
+
+.page{
+    min-height: 400px;
+    background: white;
+    margin: 0 auto;
+    height: 700px;
+    margin-top: 450px;
+}
+
+.comeOver{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.3em;
+}
+
+
+.background{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .background img{
+    width: 1200px;
+    display: inline;
+  }
+
+table{
+    width: 300px;
+    padding: 20px;
+    border-collapse: unset;
+    /* background: url("http://dreempics.com/img/picture/Apr/12/1e4f269b8df1885718f547398a4d0e95/8.jpg")/*burlywood*/
+    background: url("https://wallpapercave.com/wp/wp2356158.jpg")/*burlywood*/;
+    margin-left: 670px;
+}
+button{
+    font-size: 26pt;
+    width: 100%;
+    height: 70px;
+}
+.button{
+    background-color: #d7d7d7b3;
+    font-size: xx-large;
+    border-radius: 15px;
+}
+.button:hover{
+    background: radial-gradient(circle, #e2e5e9, #a4a7ab);
+}
+.button-clear{
+    background: white;
+    border: 2px;
+    padding: 10px 20px;
+}
+input{
+    height: 50px;
+    font-size: 40px;
+    text-align: right;
+    color: #711c30;
+    width: 100%;
+}
